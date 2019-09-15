@@ -10,5 +10,5 @@ app.use(cors());
 
 mongoose.connect('mongodb://localhost:27017/amf', { useNewUrlParser: true });
 requirDir('./src/models');
-app.use('/sistema', require('./src/routes/routs'));
+app.use('/sistema', require('./src/routs/routs'));
 app.listen(3001);
