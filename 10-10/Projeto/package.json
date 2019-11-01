@@ -1,0 +1,20 @@
+{
+  "name": "projeto",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "http-status": "^1.4.0",
+    "mysql2": "^1.7.0",
+    "react-router-dom": "^5.1.2",
+    "sequelize": "^5.19.6"
+  },
+  "devDependencies": {},
+  "description": ""
+}
